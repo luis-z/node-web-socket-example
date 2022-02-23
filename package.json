@@ -1,0 +1,22 @@
+{
+  "name": "socket-io-example",
+  "version": "1.0.0",
+  "description": "Small websockets example with socket.io and node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "websockets",
+    "express"
+  ],
+  "author": "luis-z",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
